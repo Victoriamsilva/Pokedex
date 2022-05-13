@@ -3,11 +3,11 @@
 .card-box-lista {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
     margin-top: 30px;
     box-sizing: border-box;
 
     .card-lista {
+        margin: 10px;
         border-radius: 18px;
         padding: 10px;
         background-color: $main-blue;
