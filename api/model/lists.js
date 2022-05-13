@@ -48,6 +48,7 @@ exports.putList = async (id, body) => {
     const data = await collection.updateOne({ _id: ObjectId(id) }, { $set: { ...body, lastModified } })
     return { data, status: 200 }
 }
+
 exports.removeList = async (id) => {
     const { collection } = await connectMongodb('pokemonFox', 'listas')
     const data = await collection.deleteOne({ _id: ObjectId(id) })

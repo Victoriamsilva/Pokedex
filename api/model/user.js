@@ -28,9 +28,9 @@ exports.loginUser = async ({ email, senha }) => {
     }
 }
 
-exports.getEmail = async (email, id) => {
+exports.getEmail = async (email) => {
     const { collection } = await connectMongodb('usersDatabase', 'users')
-    const data = await collection.findOne({ _id: ObjectId(id) })
+    const data = await collection.findOne({ email })
     return { data, status: 200 }
 }
 

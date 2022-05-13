@@ -24,7 +24,7 @@ exports.validateErrorUser = (req, res, next) => {
 
 exports.validateEmail = async (req, res, next) => {
     const { email } = req.body
-    const { data } = await getEmail({ email })
+    const { data } = await getEmail(email)
     if (data) return res.status(400).json({ message: 'E-mail já existente.' })
     return next()
 }
