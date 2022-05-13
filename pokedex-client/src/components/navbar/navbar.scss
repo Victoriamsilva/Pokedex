@@ -1,0 +1,42 @@
+@import "../../styles/abstracts/variables.scss";
+
+.nav {
+    background-color: $red;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 30px;
+    width: 300px;
+    .links {
+        align-self: flex-start;
+        .nav-link {
+            color: $white;
+            padding: 10px 0;
+        }
+    }
+
+    .logout {
+        display: flex;
+        align-self: flex-start;
+        color: $white;
+        padding: 10px 0;
+        img {
+            margin-right: 10px;
+        }
+    }
+
+    .logos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .logo {
+            width: 80%;
+        }
+        .vector {
+            width: 30%;
+        }
+    }
+}

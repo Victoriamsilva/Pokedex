@@ -1,0 +1,10 @@
+@import "./abstracts/variables.scss";
+
+.view {
+    margin-top: 20px;
+    cursor: pointer;
+    span {
+        margin-left: 8px;
+        color: $dark-blue;
+    }
+}

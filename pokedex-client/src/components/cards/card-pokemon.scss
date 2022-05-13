@@ -1,0 +1,35 @@
+@import "../../styles/abstracts/variables.scss";
+
+.card-box-pokemon {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    .card-pokemon {
+        border-radius: 18px;
+        width: 30%;
+        overflow: hidden;
+        margin-bottom: 25px;
+        box-shadow: 2px 2px 2px rgb(159, 155, 155);
+        .content-pokemon {
+            padding: 15px;
+            background-color: $dark-blue;
+            color: $white;
+            h3 {
+                font-size: 25px;
+            }
+            h6 {
+                font-size: 15px;
+                font-weight: 150;
+                span {
+                    font-weight: 350;
+                }
+            }
+        }
+
+        img {
+            padding: 30px;
+            background-color: $grey;
+        }
+    }
+}

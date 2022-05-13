@@ -1,0 +1,35 @@
+@import "./abstracts/variables.scss";
+@import "./table.scss";
+@import "./input.scss";
+@import "./button.scss";
+@import "./view.scss";
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&family=Roboto:wght@100;300&display=swap");
+
+.container {
+    padding: 30px 18px;
+    h1 {
+        margin-bottom: 25px;
+        color: $main-blue;
+    }
+}
+.wrapper {
+    flex-grow: 1;
+    overflow: hidden auto;
+}
+.btn {
+    border-radius: 20px;
+    height: 43px;
+}
+.link {
+    color: $white;
+    cursor: pointer;
+    &:hover {
+        color: $white;
+    }
+}
+#root {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}

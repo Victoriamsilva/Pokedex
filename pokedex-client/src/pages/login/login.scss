@@ -1,0 +1,60 @@
+@import "../../styles/abstracts/variables.scss";
+
+.row {
+    background-color: $red;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    .autentication {
+        padding: 60px 50px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        .logo {
+            justify-content: center;
+            width: 200px;
+            height: auto;
+        }
+        .vector {
+            width: 60px;
+            height: auto;
+        }
+        .form {
+            width: 100%;
+            margin-top: 35px;
+            .arrow {
+                display: flex;
+                align-items: center;
+                margin-bottom: 15px;
+            }
+            .link {
+                display: block;
+                margin-left: 6px;
+                margin-bottom: 6px;
+            }
+            .input {
+                width: 100%;
+                color: $white;
+            }
+        }
+    }
+    .image {
+        display: flex;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 75%;
+        border-left: 30px solid $dark-blue;
+        .elipse {
+            margin-left: -64px;
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .image {
+        display: none !important;
+    }
+}

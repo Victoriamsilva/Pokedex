@@ -1,0 +1,21 @@
+@import "./abstracts/variables.scss";
+
+.btn {
+    color: $white;
+    padding: 0 50px;
+    &:hover {
+        color: $white;
+    }
+}
+.btn-blue {
+    background-color: $main-blue;
+    &:hover {
+        background-color: $blue-hover;
+    }
+}
+.btn-red {
+    background-color: $red;
+    &:hover {
+        background-color: $red-hover;
+    }
+}

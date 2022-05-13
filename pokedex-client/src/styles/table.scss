@@ -1,0 +1,33 @@
+@import "./abstracts/variables.scss";
+
+.div-table {
+    overflow: auto;
+    margin-top: 30px;
+
+    .table {
+        table-layout: fixed;
+        border-radius: 8px 8px 0px 0px;
+        overflow: hidden;
+        thead {
+            background-color: $main-blue;
+            overflow: hidden;
+            th {
+                color: $main-yellow;
+            }
+        }
+        th,
+        td {
+            width: 200px;
+            padding: 15px;
+        }
+        tbody {
+            border-top: none;
+            td {
+                border: none;
+            }
+            tr:nth-child(even) {
+                background-color: $light-blue;
+            }
+        }
+    }
+}

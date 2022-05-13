@@ -1,0 +1,20 @@
+@import "./abstracts/variables.scss";
+
+.form-control {
+    border-radius: 20px;
+    height: 38px;
+}
+.input-search {
+    width: 100%;
+    position: relative;
+    img {
+        position: absolute;
+        top: 7px;
+        left: 12px;
+        height: 25px;
+    }
+    .form-control {
+        background-color: $grey;
+        padding-left: 50px;
+    }
+}
