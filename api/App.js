@@ -22,5 +22,3 @@ app.use('/', routeUser, routePokemon, routeList)
 app.listen(3100)
 
 module.exports = app;
-
-//app.listen(3000, () => console.log('Servidor: http://localhost:3000'))
