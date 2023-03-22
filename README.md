@@ -5,7 +5,7 @@ Página web desenvolvida por mim no RedCamp (Bootcamp de tecnologia da empresa R
 ## 🛠️ Construído com
 
 * [ReactJs](https://pt-br.reactjs.org/) - O framework web usado
-* [sass](https://sass-lang.com/) - Usado para estilização
+* [Sass](https://sass-lang.com/) - Usado para estilização
 * [Express](http://expressjs.com/pt-br/) - Utilizado para criar a api
 * [MongoDB](https://www.mongodb.com/) - Banco de dados utilizado
 
